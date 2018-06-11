@@ -4,10 +4,9 @@
 ## Submission Instructions
 * Read this document entirely and estimate how long this assignment will take.
 * Work in a fork of this repository
-* **DISREGARD FOR 6/11** Hook up your forked repo to [Travis-CI](https://travis-ci.org/) using the steps demonstrated in class. 
-* Work in a branch on your fork called `lab-<lab-number>`, e.g. this lab's branch would be named `lab-01`
-* After completion, make a PR from your `lab-<lab-number>` branch to the master branch of your forked repository
-* Submit on canvas a question and observation, your original estimate, how long you spent, and a link to your pull request
+* Work in a branch on your fork
+* Write all of your code in a directory named `lab-` + `<your name>` **e.g.** `lab-susan`
+* Submit on canvas a question and observation,your original estimate, how long you spent, and a link to your pull request
 
 ## Configuration
 Configure the root of your repository with the following files and directories. Thoughtfully name and organize any additional configuration or module files.
@@ -40,10 +39,10 @@ Create a NodeJS module in the `lib` directory named `greet.js`.  This module sho
 
 ### Arithmetic Module
 Create a NodeJS module in the `lib` directory named `arithmetic.js`. This module exports an object and should have `add` and `sub` methods that implement addition and subtraction.
-* The `add` method should have a 2 parameters (arity of two)
+* The `add` method should have a 2 parameters (airty of two)
   * `if` either argument is a non-number the function should return `null`
   * `else` return the sum of the 2 numbers
-* The `sub` method should have 2 parameters (arity of two)
+* The `sub` method should have 2 parameters (airty of two)
   * `if` either argument is a non-number the function should return `null`
   * `else` return the second parameter subtracted from the first parameter
 
